@@ -8,6 +8,7 @@ value.each do |inner_key,names|
     if !final_array[name]
       final_array[name]={}
     end
-    if 
+    if !final_array[name][key]
+      !
 end
 end
