@@ -13,7 +13,7 @@ value.each do |inner_key,names|
     end
     results[n][key].push(inner_key.to_s)
   end
-  #binding.pryfin
+  #binding.pry
 end
 end
 end
