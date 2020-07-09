@@ -11,7 +11,7 @@ value.each do |inner_key,names|
     if !final_array[n][key]
       !final_array[n][key]=[]
     end
-    results[n][key].push(inner_key.to_s)
+    new_array[n][key].push(inner_key.to_s)
   end
   #binding.pry
 end
